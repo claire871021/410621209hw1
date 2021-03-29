@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">410621209hw1</string>
+    <string name="title">溫度轉換</string>
+    <string name="enterText">輸入華氏溫度</string>
+    <string name="convert">轉換</string>
+    <string name="ans">輸出攝氏溫度</string>
+    <string name="hinttemp">tempOfF</string>
+</resources>

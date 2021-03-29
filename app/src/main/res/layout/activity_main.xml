@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context=".MainActivity">
+
+        <TextView
+            android:id="@+id/temp_turn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+            android:gravity="center_horizontal"
+            android:padding="8dp"
+            android:text="@string/title"
+            android:textColor="#3F51B5"
+            android:textColorLink="#FFFFFF"
+            android:textSize="18sp" />
+
+        <EditText
+            android:id="@+id/tempf"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="50dp"
+            android:ems="10"
+            android:gravity="center_horizontal"
+            android:hint="@string/enterText"
+            android:importantForAutofill="no"
+            android:inputType="textPersonName"
+            android:padding="8dp"
+            android:textColor="#575555" />
+
+        <Button
+            android:id="@+id/convert"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginStart="@dimen/margin01"
+            android:layout_marginLeft="@dimen/margin01"
+            android:layout_marginTop="30dp"
+            android:layout_marginEnd="@dimen/margin01"
+            android:layout_marginRight="@dimen/margin01"
+            android:layout_marginBottom="@dimen/margin01"
+            android:gravity="center_horizontal"
+            android:text="@string/convert"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/ans"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_margin="@dimen/margin01"
+            android:layout_marginStart="@dimen/margin01"
+            android:layout_marginLeft="@dimen/margin01"
+            android:layout_marginEnd="@dimen/margin01"
+            android:layout_marginRight="@dimen/margin01"
+            android:layout_marginBottom="@dimen/margin01"
+            android:gravity="center_horizontal"
+            android:text="@string/ans"
+            android:textSize="18sp"
+            android:visibility="visible" />
+
+        <ImageView
+            android:id="@+id/im"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/margin01"
+            android:layout_marginLeft="@dimen/margin01"
+            android:layout_marginTop="200dp"
+            android:layout_marginEnd="@dimen/margin01"
+            android:layout_marginRight="@dimen/margin01"
+            android:layout_marginBottom="@dimen/margin01"
+            app:srcCompat="@drawable/im" />
+
+    </LinearLayout>
+</layout>
